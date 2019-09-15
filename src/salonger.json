@@ -1,0 +1,67 @@
+[
+    {
+        "salon": "Sax & Fön",
+        "adress": "Rådmansgatan 33",
+        "area": "113 57 Stockholm",
+        "time": "12",
+        "tel": "08-522 389 20",
+        "site": "www.salongweb.se",
+        "rating": "(32)",
+        "price": "301 kr",
+        "distance": "30 min",
+        "open": "Öppet till 13.37 idag",
+        "desc": " saxigt och fönigt! "
+    },
+    {
+        "salon": "Hårizont",
+        "adress": "Rådmansgatan 44",
+        "area": "113 57 Stockholm",
+        "time": "12",
+        "tel": "08-522 389 20",
+        "site": "www.salongweb.se",
+        "rating": "(32)",
+        "price": "302 kr",
+        "distance": "30 min",
+        "open": "Öppet till 04.17 idag",
+        "desc": " Inga håribla frisyrer här inte... "
+    },
+    {
+        "salon": "Hårhuset",
+        "adress": "Rådmansgatan 40",
+        "area": "113 57 Stockholm",
+        "time": "12",
+        "tel": "08-522 389 20",
+        "site": "www.salongweb.se",
+        "rating": "(32)",
+        "price": "320 kr",
+        "distance": "30 min",
+        "open": "Öppet till 00.00 idag",
+        "desc": " alla frisyrer är välkomna. "
+    },
+    {
+        "salon": "Hair & Nu",
+        "adress": "Rådmansgatan 46",
+        "area": "113 57 Stockholm",
+        "time": "12",
+        "tel": "08-522 389 20",
+        "site": "www.salongweb.se",
+        "rating": "(32)",
+        "price": "270 kr",
+        "distance": "30 min",
+        "open": "Öppet till 17.39 idag",
+        "desc": " info..info...info....lorem infomus..."
+    },
+    {
+        "salon": "Hårley Davidson",
+        "adress": "Rådmansgatan 99",
+        "area": "113 57 Stockholm",
+        "time": "12",
+        "tel": "08-522 389 20",
+        "site": "www.salongweb.se",
+        "rating": "(32)",
+        "price": "499 kr",
+        "distance": "60 min",
+        "open": "Öppet till 09.22 idag",
+        "desc": " Salongernas Harley Davidson. billigt, bra och nära. "
+    }
+]
