@@ -1,44 +1,38 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import chevron_right from './../index/img/chevron_right.png';
-import rating from './../index/img/rating.png';
+import ratingSrc from './../index/img/rating.png';
 
+// J:   Denna komponent har jag gjort om till en funktionell komponent
+//      då den inte använder state eller något annar react-specifikt
+//      Här deconstructas props i början så det blir tydligt vad komponenten får för props
 
-
-
-class ListItem extends React.Component {
-    constructor(props) {
-        super(props)
-
-    }
-    render() {
+const ListItem = ({time, salon, rating, adress, price, distance, index}) => {
+  // J:   Jag har här bytt 'to' på Link till salong/index för att länka till en specifik salong.
         return (
-            <Link to="/salong">        <div className="grid-container">
-                <div className="li">{this.props.data.time}</div>
-                <div>
-                    <p>{this.props.data.salon}</p>
+            <Link to={`/salong/${index}`}>
+                <div className="grid-container">
+                    <div className="li">{time}</div>
                     <div>
-                        <span> <img src={rating} alt="" /></span>
-                        <span>{this.props.data.rating}</span>
+                        <p>{salon}</p>
+                        <div>
+                            <span> <img src={ratingSrc} alt="" /></span>
+                            <span>{rating}</span>
 
+                        </div>
+                        <p>{adress}</p>
                     </div>
-                    <p>{this.props.data.adress}</p>
-                </div>
-                <div>
-                    <p>{this.props.data.price}</p>
-                    <p>{this.props.data.distance}</p>
-                </div>
-                <div className="pil-container">
-                    <div className="pilen">
-                        <img src={chevron_right} alt="" />
+                    <div>
+                        <p>{price}</p>
+                        <p>{distance}</p>
                     </div>
-
-                </div>
-                <div>
-
-                </div>
-            </div></Link>)
-    }
+                    <div className="pil-container">
+                        <div className="pilen">
+                            <img src={chevron_right} alt="" />
+                        </div>
+                    </div>
+              </div>
+            </Link>)
 }
 
 export default ListItem;
