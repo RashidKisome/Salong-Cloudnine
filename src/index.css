@@ -60,12 +60,9 @@ a:hover, a:active, a:link, a:visited{
 }
 
 .salongInput { 
-  width: 30
-  0px;
+  width: 100px;
   margin: auto;
-  width: 700;
   text-align: left;
-  
 }
 
 
@@ -95,7 +92,15 @@ a:hover, a:active, a:link, a:visited{
   grid-template-rows: 0.5fr 1.5fr;
   grid-template-areas: "back . heart" "salongbetyg . .";
   grid-area: Header;
+}
 
+.hairHeader {
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
 }
 
 .salongbetyg { grid-area: salongbetyg; 
